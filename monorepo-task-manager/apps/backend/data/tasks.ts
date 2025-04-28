@@ -56,16 +56,4 @@ export const tasks: Task[] = [
     description: "Host Express app on Render or Railway.",
     status: false,
   },
-  {
-    id: 9,
-    title: "Deploy Frontend",
-    description: "Host React app on Vercel or Netlify.",
-    status: false,
-  },
-  {
-    id: 10,
-    title: "Write Documentation",
-    description: "Create a README.md with setup instructions.",
-    status: false,
-  },
 ];

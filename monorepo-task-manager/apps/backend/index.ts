@@ -5,7 +5,7 @@ import cors from "cors";
 import taskRoutes from "./routes/routesTasks";
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -14,5 +14,5 @@ app.use(express.json());
 app.use("/tasks", taskRoutes);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Le sserver a bien démaré sur le port http://localhost:${port}`);
 });

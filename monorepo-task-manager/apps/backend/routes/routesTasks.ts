@@ -35,7 +35,7 @@ router.post("/", (req, res) => {
     id: Date.now(), // Simple génération d'id
     title,
     description,
-    status: false, // par défaut la tâche n'est pas terminée
+    status: false,
   };
 
   tasks.push(newTask);
