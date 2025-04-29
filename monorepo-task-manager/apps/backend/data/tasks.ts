@@ -54,6 +54,6 @@ export const tasks: Task[] = [
     id: 8,
     title: "Deploy Backend",
     description: "Host Express app on Render or Railway.",
-    status: false,
+    status: true,
   },
 ];
